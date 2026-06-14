@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@layer utilities{
+    .row{
+        @apply flex flex-wrap w-full
+    }
+}
+@layer components{
+    .btnred{
+        @apply w-fit h-[50px] rounded-[50px] px-[15px] flex items-center bg-red-700 text-white gap-2.5 uppercase
+    hover:bg-blue-950 hover:border hover:-translate-y-2 duration-500
+    }
+    .underlinemenu{
+        @apply absolute bottom-0 left-0 w-full h-[3px]  -skew-x-[25deg] flex  justify-between before:content-[''] before:flex before:w-[75%] before:h-full before:bg-white after:content-[''] after:bg-red-700 duration-200  after:flex after:w-[20%] after:h-full opacity-0
+    }
+    .app{
+      @apply w-[30px] h-[30px]  flex flex-wrap bg-amber-600 gap-1 absolute  top-0 left-0
+    }
+}
+@layer base{
+    body{
+        font-family:rosha;
+    }
+    @font-face {
+        font-family:rosha ;
+        src: url(/font/3.ttf);
+    }
+}
+@theme {
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform:translateY(0px);
+      
+    }
+    50% {
+      transform:translateY(20px);
+    }
+  }
+}
