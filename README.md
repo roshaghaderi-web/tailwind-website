@@ -2,7 +2,7 @@
 
 **If you have a lot of information to display on your site, why don't you use my accordion menu**
 
-![viewfinal](https://github.com/user-attachments/assets/333e829c-f4be-45da-b488-1ff578878251)
+![viewfinal](<img width="1891" height="855" alt="Image" src="https://github.com/user-attachments/assets/460e4010-d394-491e-bc2c-c00b6f9d4e1e" />)
 - [Demo Project](https://roshaghaderi-web.github.io/tailwind-website/)
 
 
